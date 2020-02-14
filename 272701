@@ -1,0 +1,12 @@
+<html>
+<head>
+	<script src ="jardeliza06.js"></script>
+	</head>
+<body>
+<h2>Program to convert decimal into binary</h2>
+<p>created By: Eljean May Jardeliza</p>
+Enter Number:<br><input type="text" id="input"><br>
+<button onclick="check()">Submit</button>
+<p id="int"></p>
+</body>
+</html>

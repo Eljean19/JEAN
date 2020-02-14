@@ -1,0 +1,18 @@
+function check()
+{
+	var a=Math.trunc(document.getElementById("input").value);
+	var ans=[];
+	var mod;
+	var b=a;
+	
+	do
+	{
+		mod=a%2;
+		a=Math.trunc(a/2);
+		ans.push(mod);
+	}
+	while(a!=0);
+	    document.write("Decimal Form:" +b+"<br>");
+	while(ans.length !=0)
+	document.write("Binary Form:"+ans.pop()+"<br>")
+		}
